@@ -7,5 +7,6 @@ where P1.salary < P2.salary
 order by P2.salary
 ```
 
-- join 여러 개 사용
-- join 한 여러 테이블들의 구성요소 사용
+- 여러 개의 `join` 사용
+- `join` 한 여러 테이블들의 구성요소 사용
+- `using(id)`로 하면 `on S.id = F.id` 대체 가능
