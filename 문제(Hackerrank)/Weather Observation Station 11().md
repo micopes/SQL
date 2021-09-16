@@ -12,3 +12,5 @@ SELECT DISTINCT CITY FROM STATION
 WHERE CITY REGEXP '^[^aeiou]|[^aeiou]$';
 ```
 - `대괄호 안의 ^는 not을 의미.`
+
+- **regexp**
