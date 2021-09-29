@@ -30,3 +30,14 @@ where
 - 이유
 ![image](https://user-images.githubusercontent.com/43158502/129734095-dc3f39ce-0040-4a60-ae49-22040b136700.png)
 
+
+<hr>
+
+# second
+
+```
+select distinct(city)
+from station
+where city regexp '^[aeiou]'
+    and city regexp '[aeiou]$'
+```
