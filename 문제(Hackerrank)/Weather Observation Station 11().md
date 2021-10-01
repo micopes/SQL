@@ -14,3 +14,11 @@ WHERE CITY REGEXP '^[^aeiou]|[^aeiou]$';
 - `대괄호 안의 ^는 not을 의미.`
 
 - **regexp**
+
+## 2번째
+```
+select distinct(city)
+from station
+where city regexp '^[aeiou]'
+	and city regexp '[aeiou]$'
+```
