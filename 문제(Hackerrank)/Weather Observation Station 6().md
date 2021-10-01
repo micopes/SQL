@@ -27,9 +27,16 @@ mysql에서는 `regexp`로 정규식(특정한 규칙을 가진 문자열의 집
 
 <hr>
 
-# 2번째
+### 2번째
 
 ```
 select distinct city from station
 where city regexp '^[aeiou]'
 ```
+
+### 3번째
+select distinct(city)
+from station
+where city regexp '^[aeiou]'
+- regexp
+- ^, $
