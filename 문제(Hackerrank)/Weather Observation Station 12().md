@@ -19,3 +19,23 @@ select distinct city from station
 where
     city regexp '^[^aeiou].*[^aeiou]$'
 ```
+
+## 두번째
+
+1)
+
+```
+select distinct(city)
+from station
+where city regexp '^[^aeiou]'
+    and city regexp '[^aeiou]$'
+```
+
+2)
+
+```
+select distinct(city)
+from station
+where city not regexp '^[aeiou]'
+    and city not regexp '[aeiou]$'
+```
