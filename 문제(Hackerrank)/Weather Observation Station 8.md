@@ -41,3 +41,12 @@ from station
 where city regexp '^[aeiou]'
     and city regexp '[aeiou]$'
 ```
+
+
+## 세번째
+```
+select distinct(city)
+from station
+where city regexp '^[aeiou]'
+	and city regexp '[aeiou]$'
+```
