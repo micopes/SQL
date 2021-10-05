@@ -21,3 +21,12 @@ Select Name From City Where CountryCode In (
     Select Code From Country Where Continent = 'Africa'
 );
 ```
+
+## 2번째
+```
+select city.name
+from city 
+inner join country
+on city.countrycode = country.code
+where continent = 'Africa'
+```
