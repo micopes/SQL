@@ -1,0 +1,7 @@
+``` sql
+
+SELECT MIN(abs(P1.x - P2.x)) AS Shortest
+FROM Point P1, Point P2
+WHERE P1.x != P2.x
+
+```
